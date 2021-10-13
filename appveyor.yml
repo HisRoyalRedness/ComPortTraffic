@@ -17,7 +17,7 @@ deploy:
   description: 'ComPortTraffic v$(appveyor_build_version)'
   provider: GitHub
   auth_token:
-    secure: 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 
+    secure: W5+n+IkGZOEHXp3kx9PNIdhheM/3yL2CnU72QACC25lMLT+edLb+69id/w+ZAJ0y
   artifact: ComPortTraffic.exe
   draft: false
   prerelease: false
