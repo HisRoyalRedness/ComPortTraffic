@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ComPortTraffic": {
+      "commandName": "Project",
+      "commandLineArgs": "com3 data=123456 repeat=0 gap=1000"
+    }
+  }
+}
