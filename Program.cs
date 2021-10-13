@@ -266,8 +266,8 @@ namespace Gallagher.Utilities
         static bool IsHexData(string inp) => _hexStringRegex.Match(inp).Success;
         static bool IsSwitchPresent(string arg, string swtch) => string.Compare(arg, swtch, true) == 0;
 
-        static readonly Regex _comPortRegex = new(@"^COM\d+$", RegexOptions.Compiled | RegexOptions.IgnoreCase);
-        static readonly Regex _hexStringRegex = new(@"^[0-9a-f]+$", RegexOptions.Compiled | RegexOptions.IgnoreCase);
+        static readonly Regex _comPortRegex = new Regex(@"^COM\d+$", RegexOptions.Compiled | RegexOptions.IgnoreCase);
+        static readonly Regex _hexStringRegex = new Regex(@"^[0-9a-f]+$", RegexOptions.Compiled | RegexOptions.IgnoreCase);
 
         const string CMD_COMPORT = "com";
         const string CMD_BAUD = "baud";
