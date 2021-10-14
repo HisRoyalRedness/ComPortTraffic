@@ -2,7 +2,7 @@
   "profiles": {
     "ComPortTraffic": {
       "commandName": "Project",
-      "commandLineArgs": "com3 data=123456 repeat=0 gap=1000"
+      "commandLineArgs": "com4 gap=1 repeat=5 len=1,10 show"
     }
   }
 }

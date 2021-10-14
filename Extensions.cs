@@ -50,7 +50,7 @@ namespace Gallagher.Utilities
 
         public static IEnumerable<IEnumerable<T>> Chunk<T>(this IEnumerable<T> source, int chunksize)
         {
-            while (source.Any())
+            while (source?.Any() ?? false)
             {
                 yield return source.Take(chunksize);
                 source = source.Skip(chunksize);
